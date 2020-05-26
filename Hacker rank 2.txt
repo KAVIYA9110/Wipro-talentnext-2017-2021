@@ -1,0 +1,50 @@
+Vowels
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String args[] ) {
+      String str = "happy safetyie";
+      // vowels
+      String vowels = "aeiou";
+      System.out.print("Vowels in the string are: ");
+      // iterate over the characters in string
+      for (char character : str.toCharArray()) {
+         // check if current character is a vowel
+         if (vowels.indexOf(character) != -1) {
+            System.out.print(character + " ");
+
+        
+    }
+}
+
+Sorting 2 arrays
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String args[] ) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+        String result = "";
+        Scanner kbd = new Scanner(System.in);
+        String input = kbd.nextLine();
+
+        for(int i = 1; i < input.length(); i++)
+        {
+            if(input.charAt(i-1) < input.charAt(i))
+                result += input.charAt(i-1);
+            //else 
+            //  result += input.charAt(i);
+        }
+        System.out.println(result);
+
+    }
+}
