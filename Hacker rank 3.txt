@@ -1,0 +1,51 @@
+Frequency of array
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String args[] ) {
+    
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+        int array[]= {10,2,3,2,2,3,8,11,12,11,12};
+        Solution.main(args);;
+        System.out.print("after sorting");
+        for (int element : array)
+        system.out.println("elements" + " ");
+    }
+}
+
+
+
+ARRANGE ARRAY
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String args[] ) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+        int len = str.length();
+        lowString = " ";
+        String upr = " ";
+        char ch;
+        for (int i=0; i< len; i++){
+            ch = str.charat(i);
+            if(ch >= 'A' && ch <= 'Z'){
+                upr += ch;
+            }
+            else {
+                low += ch;
+            }
+            public static void main (String args[])
+            {String str = "ByeByeCorona"
+            system.out.println("Before operation:" +str);
+            system.out.println("After operation:" + move(str));
+            }
+        }
