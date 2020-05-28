@@ -1,0 +1,64 @@
+Find the factor
+
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+
+
+class Result {
+    
+
+    /*
+     * Complete the 'pthFactor' function below.
+     *
+     * The function is expected to return a LONG_INTEGER.
+     * The function accepts following parameters:
+     *  1. LONG_INTEGER n
+     *  2. LONG_INTEGER p
+     */
+
+    public static long pthFactor(long n, long p){
+    
+        int i;
+        i = 1;
+        long n,p;
+        n = 10;
+        p=3;
+        do{
+            if(n%i == 0);{
+                system.out.format("%d", i);
+            }
+            i++;
+        }
+        while(i<=n);
+    }
+    
+
+    }
+
+
+FIZZBUZZ
+
+public static void fizzBuzz(int n) {
+        int n = 100;
+        for (i=1; i<=n; i++) {
+            if (i%15==0)
+            system.out.println("fizzbuzz" + " ");
+            else if(i%3 == 0)
+            system.out.println("fizz" + " ");
+            else if(i%5 == 0)
+            system.out.println("buzz" + " ");
+            else
+            system.out.println(i+ " ");
+        }
+    // Write your code here
+
+    }
+
+        
+    
